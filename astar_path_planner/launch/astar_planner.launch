@@ -36,8 +36,12 @@
 
     <!--    启动轨迹生成节点-->
     <!--    your code-->
-
-
+    <node pkg="astar_path_planner" type="Trajectory" name="Trajectory" output="screen" >
+        <param name="max_velocity" value="0.5" />
+        <param name="max_acceleration" value="0.3" />
+        <param name="max_jerk" value="0.1" />
+        <param name="dt" value="0.05" />
+    </node>
 
 
     <!-- 启动 RViz -->

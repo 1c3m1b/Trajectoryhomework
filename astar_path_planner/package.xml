@@ -53,6 +53,13 @@
   <build_depend>visualization_msgs</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>visualization_msgs</build_export_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>Eigen</build_depend>
+
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>Eigen</exec_depend>
   <exec_depend>roscpp</exec_depend>
   <exec_depend>visualization_msgs</exec_depend>
 
