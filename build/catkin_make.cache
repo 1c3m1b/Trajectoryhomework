@@ -1,0 +1,2 @@
+TrajectoryHomework/astar_path_planner
+-DCATKIN_DEVEL_PREFIX=/home/recognition/Desktop/trajectoryhomework/devel -DCMAKE_INSTALL_PREFIX=/home/recognition/Desktop/trajectoryhomework/install -G Unix Makefiles
